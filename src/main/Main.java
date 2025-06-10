@@ -25,7 +25,7 @@ public class Main {
         razas.add(elfo);
         razas.add(enano);
         
-        // Esto da error, ya que el atributo arma es de carácter private en la clase
+        // Esto da error, ya que el atributo arma es de modificador private en la clase
         // System.out.println(elfo.arma);
         
         // Esto no da error, ya que se accede a los métodos para obtener los atributos
